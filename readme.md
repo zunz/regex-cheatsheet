@@ -28,7 +28,7 @@ Metacharacters di dalam charset:
 
 - Satu atau lebih: **+**
 
-- Nol atau lebih: *****
+- Nol atau lebih: **\***
 
 - Nol atau satu: **?**
 
