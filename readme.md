@@ -18,10 +18,10 @@ Metacharacters di dalam charset:
 ### Shorthand
 
 - **\d** digit, alias **[0-9]**
-- **\w** character alias **[0-9a-zA-Z_]** (termasuk underscore)
+- **\w** word characters alias **[0-9a-zA-Z_]** (termasuk underscore)
 - **\s** whitespace (space, tab)
 - **\D** bukan digit
-- **\W** bukan character
+- **\W** bukan word characters
 - **\S** bukan whitespace
 
 ### Repetisi
@@ -39,6 +39,10 @@ Metacharacters di dalam charset:
   {2, 4} artinya repetisi 2 sampai 4 kali
 
   {2, } artinya repetisi 2 sampai habis
+
+- Lazy (mengambil paling sedikit, lawan dari greedy): ?
+
+  misal: a*? 
 
 ### Awal text: ^
 
