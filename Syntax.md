@@ -1,6 +1,6 @@
 ## Add space before & after functions
 
-`\((\S[^)]+\S)\)`
+`\((\S.+\S)\)`
 
 Replace with
 
